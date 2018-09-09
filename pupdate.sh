@@ -10,13 +10,13 @@ if [ "$(id -u)" != "0" ] ; then
         echo "This script requires root permissions. Please run this as root!"
         exit 2
 fi
-
+echo -e " ${TICK} \e[32m Backing Up Adlists.list \e[0m"
 cp /etc/pihole/adlists.list /etc/pihole/adlists.list.bak
+echo -e " ${TICK} \e[32m Downloading @mc9662 adlists.list! \e[0m"
 list="$(grep "^(\^|.*\$$" /etc/pihole/adlists.list)"
 list+="
 $(wget -qO - https://raw.githubusercontent.com/mc9662/pihole/master/adlists.list)"
-LC_COLLATE=C sort -u <<< "$list" | grep -v "^#" | grep -v '^[[:space:]]*$' | sudo tee /etc/pihole/adlists.list
-killall -SIGHUP pihole-FTL
+LC_COLLATE=C sort -u <<< "$list" | grep -v "^#" | grep -v '^[[:space:]]*$' | sudo tee /etc/pihole/adlists.list >/dev/null
 wait
 echo -e " ${TICK} \e[32m Pi-hole's adlist updated \e[0m"
 echo -e " ${TICK} \e[32m Done! \e[0m"
