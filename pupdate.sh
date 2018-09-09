@@ -22,6 +22,7 @@ echo -e " ${TICK} \e[32m Pi-hole's adlist updated \e[0m"
 echo -e " ${TICK} \e[32m Done! \e[0m"
 echo -e " ${TICK} \e[32m Updating Gravity \e[0m"
 sleep 1
+pihole -g
 echo -e " ${TICK} \e[32m Pi-hole's adlist updated \e[0m"
 
 exit
