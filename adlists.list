@@ -65,3 +65,8 @@ https://justdomains.github.io/blocklists/lists/nocoin-justdomains.txt
 #  https://tspprs.com/dl/spam
 https://isc.sans.edu/feeds/suspiciousdomains_Medium.txt
 https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/CK's-FilterList.txt
+https://ransomwaretracker.abuse.ch/downloads/RW_DOMBL.txt
+https://ransomwaretracker.abuse.ch/downloads/CW_C2_DOMBL.txt
+https://ransomwaretracker.abuse.ch/downloads/LY_C2_DOMBL.txt
+https://ransomwaretracker.abuse.ch/downloads/TC_C2_DOMBL.txt
+https://ransomwaretracker.abuse.ch/downloads/TL_C2_DOMBL.txt
