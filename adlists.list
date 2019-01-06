@@ -23,7 +23,7 @@ https://hosts-file.net/ad_servers.txt
 https://v.firebog.net/hosts/Easylist.txt
 https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts;showintro=0
 https://raw.githubusercontent.com/StevenBlack/hosts/master/data/UncheckyAds/hosts
-https://v.firebog.net/hosts/Easyprivacy.txt
+#  https://v.firebog.net/hosts/Easyprivacy.txt
 https://v.firebog.net/hosts/Prigent-Ads.txt
 https://raw.githubusercontent.com/quidsup/notrack/master/trackers.txt
 https://raw.githubusercontent.com/StevenBlack/hosts/master/data/add.2o7Net/hosts
@@ -70,3 +70,4 @@ https://ransomwaretracker.abuse.ch/downloads/CW_C2_DOMBL.txt
 https://ransomwaretracker.abuse.ch/downloads/LY_C2_DOMBL.txt
 https://ransomwaretracker.abuse.ch/downloads/TC_C2_DOMBL.txt
 https://ransomwaretracker.abuse.ch/downloads/TL_C2_DOMBL.txt
+https://hosts.ubuntu101.co.za/domains.list
